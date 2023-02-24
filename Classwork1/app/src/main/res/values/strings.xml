@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Classwork1</string>
+    <string name="exchangeratetitle">Exchange Rate:</string>
+    <string name="exchangeratevalue">1 HKD = 17.14 JPY</string>
+    <string name="hkdinputtitle">Enter amount of HKD:</string>
+    <string name="convertbuttonlabel">Convert</string>
+    <string name="hkdinputplaceholder">HKD</string>
+</resources>

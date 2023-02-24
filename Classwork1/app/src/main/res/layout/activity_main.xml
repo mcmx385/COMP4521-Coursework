@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/convertButton" />
+
+    <TextView
+        android:id="@+id/exchangeRateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="93dp"
+        android:text="@string/exchangeratetitle"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/exchangeRateValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/exchangeRateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:text="@string/exchangeratevalue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/amountInputTitle"
+        app:layout_constraintStart_toStartOf="@+id/exchangeRateTitle"
+        app:layout_constraintTop_toBottomOf="@+id/exchangeRateTitle" />
+
+    <TextView
+        android:id="@+id/amountInputTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hkdinputtitle"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/amountInputBox"
+        app:layout_constraintStart_toStartOf="@+id/amountInputBox"
+        app:layout_constraintTop_toBottomOf="@+id/exchangeRateValue" />
+
+    <EditText
+        android:id="@+id/amountInputBox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/hkdinputplaceholder"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/convertButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amountInputTitle" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginBottom="353dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="convert"
+        android:text="@string/convertbuttonlabel"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amountInputBox" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

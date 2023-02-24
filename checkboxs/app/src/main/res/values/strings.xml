@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">checkboxs</string>
+    <string name="COMP1234">COMP1234</string>
+    <string name="COMP4321">COMP4321</string>
+    <string name="COMP4521">COMP4521</string>
+    <string name="COMP8888">COMP8888</string>
+    <string name="Register">Register</string>
+</resources>
