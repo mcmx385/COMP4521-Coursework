@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FlipCards</string>
+    <string name="clickDesc">Work Hard Play Card!\nClick on the card and flip!</string>
+    <string name="cardButtonContDesc">Card Button</string>
+</resources>

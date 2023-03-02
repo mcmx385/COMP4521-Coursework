@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RadioButtons</string>
+    <string name="kitty">Kitty</string>
+    <string name="puppy">Puppy</string>
+</resources>
