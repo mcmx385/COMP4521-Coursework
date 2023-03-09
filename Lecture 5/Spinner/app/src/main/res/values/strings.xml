@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="caloriesLabel">Calo. Consumed (cal/kg/hr)</string>
+    <string name="weightLabel">Weight (kg)</string>
+    <string name="exerciseTimeLabel">Exercise Time (hr)</string>
+    <string name="weightHint">weight</string>
+    <string name="exerciseTimeHint">time</string>
+    <string name="calcBtnLabel">Calculation</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Classwork3</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="title">Restaurant Rating System</string>
+    <string name="restaurantNameLabel">"Restaurant Name: "</string>
+    <string name="scoreLabel">Score</string>
+    <string name="submitButtonLabel">Submit</string>
+    <string name="restaurantNameInputHint">Name</string>
+</resources>
